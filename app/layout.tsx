@@ -1,10 +1,12 @@
 import "./globals.css";
 import { ReactNode } from "react";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }) {
   return (
-    <html>
-      {children}
+    <html lang="pt-BR">
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
