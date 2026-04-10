@@ -45,12 +45,12 @@ export default function Login() {
                 {/* Formulário de login */}
                 <form action="">
                     {/* Campo de email */}
-                    <input type="email" placeholder="Email" className="outline-none w-full p-2 mt-4 rounded-md bg-gray-800 text-white" />
+                    <input required type="email" placeholder="Email" className="outline-none w-full p-2 mt-4 rounded-md bg-gray-800 text-white" />
                     {/* Campo de senha */}
-                    <input type="password" placeholder="Password" className="focus:ring-1 focus:ring-blue-500 outline-none w-full p-2 mt-4 rounded-md bg-gray-800 text-white"/>
+                    <input required type="password" placeholder="Password" className="focus:ring-1 focus:ring-blue-500 outline-none w-full p-2 mt-4 rounded-md bg-gray-800 text-white"/>
                     {/* Checkbox de termos */}
                     <div>
-                        <input type="checkbox" name="Terms" id="Terms" className='mt-4'/>
+                        <input required type="checkbox" name="Terms" id="Terms" className='mt-4'/>
                         <label htmlFor="Terms" className="text-gray-400 ml-2 text-xs">I agree to the <a href="#" className="text-blue-500 hover:underline">Terms of Service</a> and <a href="#" className="text-blue-500 hover:underline">Privacy Policy</a></label>
                     </div>
                     {/* Botão de login */}
