@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
-@keyframes slide {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+@theme {
+  --bg-white: #cfcfcf;
+  --dark: #141414;
+  --cor-principal: #7f49b4;
+  --cor-priHover: #2f1c41;
+}
+
+body {
+  background-color: var(--bg-white);
 }
