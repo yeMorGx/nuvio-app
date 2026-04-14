@@ -23,14 +23,19 @@ export default function AppLayout({ children }) {
                         {/* sidebar content */}
                         <div className="border-b border-gray-800">
                             {/* Profile */}
+
                             <div className='flex items-center justify-center'>
-                                <a href="/profile"><div className='hover:shadow-lg border-1 border-gray-900 absolute right-2 top-8 z-40 bg-green-500 w-2 h-2 m-4 rounded-full'>
-                                    </div></a>
-                                <a href="/profile"><div className='hover:shadow-lg  bg-gray-200 w-10 h-10 m-4 rounded-full'>
-                                    
-                                    
-                                    
-                                    
+                                <a href="/profile">
+                                <div className='hover:shadow-lg border-2 border-gray-900 absolute right-1.5 top-7.5 z-40 bg-green-500 w-3 h-3 m-4 rounded-full'>
+                                    </div>
+                                    </a>
+                                <a href="/profile">
+                                <div className='hover:shadow-lg  w-10 h-10 m-4 rounded-full'>
+                                    <Image src="/perfil.jpeg" 
+                                    alt="Profile Picture" 
+                                    width={40} 
+                                    height={40} 
+                                    className="rounded-full border-2 border-green-500 p-0.5"/>
                                     </div></a>
                             </div>
                         </div>
