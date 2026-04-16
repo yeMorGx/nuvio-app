@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --bg-white: #cfcfcf;
-  --dark: #141414;
+  --bg-white: #fff;
+  --dark: ##030712;
   --cor-principal: #7f49b4;
   --cor-priHover: #2f1c41;
 }
