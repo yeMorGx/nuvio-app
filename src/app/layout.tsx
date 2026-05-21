@@ -1,22 +1,15 @@
-import { Header } from "@/components/header/Header"
-import { Sidebar } from "@/components/sidebar/Sidebar"
+import "./globals.css"
 
-export default function AppLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white">
-      <Sidebar />
-
-      <div className="ml-64">
-        <Header />
-
-        <main className="p-6">
-          {children}
-        </main>
-      </div>
-    </div>
+    <html lang="pt-BR">
+      <body>
+        {children}
+      </body>
+    </html>
   )
 }

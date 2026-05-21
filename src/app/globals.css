@@ -3,10 +3,13 @@
 
 
 @theme {
-  --bg-white: #fff;
+  --bg-white: #F2F2F2;
   --dark: ##030712;
   --cor-principal: #7f49b4;
   --cor-priHover: #2f1c41;
+  --header: #fff;
+  --border: #E6E6E6 1px solid;
+
 }
 
 body {
