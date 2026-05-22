@@ -49,12 +49,13 @@ export default function Login() {
             type="email"
             placeholder="Email"
             className="
+            invalid:border-pink-500
               mt-4
               w-full
               rounded-md
-              bg-gray-800
+            bg-gray-800
               p-2
-              text-white
+            text-white
               outline-none
 
               focus:ring-1
@@ -68,6 +69,7 @@ export default function Login() {
             type="password"
             placeholder="Password"
             className="
+            invalid:border-pink-500
               mt-4
               w-full
               rounded-md

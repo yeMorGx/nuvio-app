@@ -3,9 +3,9 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export function SearchBar() {
   return (
-    <div className="flex items-center gap-3 border border-gray-300 rounded-full px-1.5 py-1.5 focus-within:border-[#005c2e] transition-colors w-full max-w-md">
+    <div className="flex items-center gap-3 border rounded-full px-1.5 py-1.5 border-[#005c2e] transition-colors w-full max-w-md focus:shadow-lg focus-within:border-[#00411f]">
       {/* Icon Container - Ensures a perfect circle */}
-      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-[#005c2e] text-white cursor-pointer shrink-0 hover:bg-[#00be5f] transition-colors">
+      <div className="flex items-center justify-center w-9 h-9 rounded-full bg-[#005c2e] text-white cursor-pointer shrink-0 hover:bg-[#00411f] transition-colors">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="w-3 h-4" />
       </div>
 
