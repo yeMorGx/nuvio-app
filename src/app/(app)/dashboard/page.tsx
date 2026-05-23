@@ -22,7 +22,7 @@ export default function Dashboard() {
         <div className="
         min-h-screen p-10 text-white
         bg-(--background)
-        overflow-x
+        overflow-x-auto
         ">
             <section className="">
             <h1 className="text-5xl text-(--foreground)">Dashboard</h1>
