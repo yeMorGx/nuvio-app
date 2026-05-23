@@ -16,12 +16,12 @@ export function Profile() {
             className="
             rounded-full
             outline-2 outline-offset-2 outline-(--online)
-            hover:outline-3
+            active:outline-3
             transition-all
             duration-300
             ease-in-out
             "            
-             src="/perfil.jpeg" alt="User" width={40} height={40} />
+             src="/balls.jpeg" alt="Foto de Perfil" width={40} height={40} />
           </div>
         
     );

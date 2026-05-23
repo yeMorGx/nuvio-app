@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     "192.168.0.203",
     "26.254.181.244"
   ],
+  images: {
+    domains: ["i.pravatar.cc"],
+  },
 };
 
 export default nextConfig;

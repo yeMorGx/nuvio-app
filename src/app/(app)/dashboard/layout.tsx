@@ -7,7 +7,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="h-screen overflow-hidden bg-[var(--background)]">
+    <div className="h-screen overflow-hidden bg-(--background)">
       
       {/* SIDEBAR */}
       <aside className="fixed left-0 top-0 h-screen w-64 z-50">

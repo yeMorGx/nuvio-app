@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimateIcon } from "@/components/animate-ui/icons/icon";
+
 import { PanelLeftClose } from "@/components/animate-ui/icons/panel-left-close";
 import { Layers } from "@/components/animate-ui/icons/layers";
 import { ChartSpline } from "@/components/animate-ui/icons/chart-spline";

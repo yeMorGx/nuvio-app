@@ -6,12 +6,21 @@
   --foreground: #1a1f1b;
  
   --card: #ffffff;
+  --card-border: #d5ddd7;
   --card-foreground: #1a1f1b;
+
+  --button-bg: #0f6b2e;
+  --button-hover-bg: #0f5024;
+  --button-foreground: #ffffff;
+  --secondary-button-bg: #bee7c5;
+  --secondary-button-hover-bg: #cff1d8;
+  --secondary-button-foreground: #1a1f1b;
  
   --popover: #ffffff;
   --popover-foreground: #1a1f1b;
  
   --primary: #0f6b2e;
+  --primary-hover: #0f5024;
   --primary-foreground: #ffffff;
  
   --secondary: #e9eeea;
