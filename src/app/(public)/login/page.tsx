@@ -1,5 +1,7 @@
 "use client";
 
+import { Metadata } from "next";
+
 import Image from "next/image";
 import {
   Montserrat,
@@ -14,6 +16,11 @@ const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   style: ["italic"],
 });
+
+const metadata: Metadata = {
+  title: "Login - Nuvio",
+  description: "Login page",
+};
 
 export default function Login() {
   return (

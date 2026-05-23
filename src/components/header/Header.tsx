@@ -1,18 +1,34 @@
-import { SearchBar } from "@/components/ui/searchBar";
-import { Profile } from "@/components/ui/profile";
-import {Playfair_Display} from "next/font/google";
+import { SearchBar } from "@/components/header/ui/searchBar";
+import { Profile } from "@/components/header/ui/profile";
+import { Notifications } from "@/components/header/ui/notifications";
+
+import { Playfair_Display, Montserrat } from "next/font/google";
 import Image from "next/image";
-  
+
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   style: ["italic"],
-}); 
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+});
 
 export function Header() {
   return (
-    <header className="bg-(--header) flex items-center border-b b-white/50 p-5 gap-5">
-        <Image src="/N.svg" alt="Logo" width={40} height={40} className="cursor-pointer" />
+    <header
+      className="
+      px-10
+      bg-(--sidebar) 
+      flex items-center p-5 gap-5 justify-between
+      border-b border-(--sidebar-border)
+    "
+    >
+      <div>
+        <Notifications />
+      </div>
 
+      <div className="flex items-center gap-5">
         <div>
           <SearchBar />
         </div>
@@ -20,7 +36,9 @@ export function Header() {
         <div>
           <Profile />
         </div>
-          
+      </div>
+
+      
     </header>
-  )
+  );
 }

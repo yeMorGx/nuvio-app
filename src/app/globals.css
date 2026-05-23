@@ -1,17 +1,119 @@
 @import "tailwindcss";
-@import "@heroui/styles"; 
+ 
+:root {
+  /* LIGHT MODE */
+  --background: #f7f9f7;
+  --foreground: #1a1f1b;
+ 
+  --card: #ffffff;
+  --card-foreground: #1a1f1b;
+ 
+  --popover: #ffffff;
+  --popover-foreground: #1a1f1b;
+ 
+  --primary: #0f6b2e;
+  --primary-foreground: #ffffff;
+ 
+  --secondary: #e9eeea;
+  --secondary-foreground: #1a1f1b;
+ 
+  --muted: #f1f4f1;
+  --muted-foreground: #5f6b62;
+ 
+  --accent: #2fae5a;
+  --accent-foreground: #ffffff;
+ 
+  --border: #d5ddd7;
+  --input: #d5ddd7;
+  --ring: #2fae5a;
 
+  --searchbar-bg:          #F4F4F0;
+  --searchbar-border:      #E2E2DC;
+  --searchbar-text:        #3A3A35;
+  --searchbar-placeholder: #888780;
+  --searchbar-focus-ring:  #EAEAD6;
+ 
+  --radius: 16px;
+ 
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1a1f1b;
+  --sidebar-border: #e5ebe6;
 
-@theme {
-  --bg-white: #F2F2F2;
-  --dark: ##030712;
-  --cor-principal: #7f49b4;
-  --cor-priHover: #2f1c41;
-  --header: #fff;
-  --border: #E6E6E6 1px solid;
+  --hoverbg: #F0F7F1;
+  --hovertxt: #1a1f1b;
 
+  --notification-bg: #1a6e0027;
+  --notification-text: #1a1f1b;
+  --notification-outline: #1a6e00;
+  
+
+  --online: #57d67a;
+  --ausente: #f5b700;
+  --ocupado: #e5484d;
+  --offline: #2e2e2e;
+ 
+  --success: #57d67a;
+  --warning: #f5b700;
+  --danger: #e5484d;
+ 
+  --shadow:
+    0 4px 20px rgba(0, 0, 0, 0.04);
+ 
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      #0f6b2e 0%,
+      #2fae5a 100%
+    );
 }
+ 
+.dark {
+  /* DARK MODE */
+  --background: #001a08;
+  --foreground: #f5f7f5;
+ 
+  --card: #0a2414;
+  --card-foreground: #f5f7f5;
+ 
+  --popover: #12301d;
+  --popover-foreground: #f5f7f5;
+ 
+  --primary: #2fae5a;
+  --primary-foreground: #ffffff;
+ 
+  --secondary: #12301d;
+  --secondary-foreground: #f5f7f5;
+ 
+  --muted: #12301d;
+  --muted-foreground: #c7d0c8;
+ 
+  --accent: #57d67a;
+  --accent-foreground: #001a08;
+ 
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.08);
+  --ring: #57d67a;
+ 
+  --sidebar: #0a2414;
+  --sidebar-foreground: #f5f7f5;
+  --sidebar-border: rgba(255, 255, 255, 0.06);
 
-body {
-  background-color: var(--bg-white);
+  --hoverbg: #262626;
+  --hovertxt: #f5f7f5;
+ 
+  --success: #57d67a;
+  --warning: #f5b700;
+  --danger: #ff5d5d;
+ 
+  --shadow:
+    0 10px 40px rgba(0, 0, 0, 0.35);
+ 
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      #001a08 0%,
+      #002b0d 45%,
+      #014016 100%
+    );
 }
+ 

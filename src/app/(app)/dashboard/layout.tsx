@@ -1,20 +1,30 @@
 import { Sidebar } from "@/components/sidebar/Sidebar";
 import { Header } from "@/components/header/Header";
 
-// import { Header } from "@/components/headerHeader";
-
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+export default function DashboardLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    // A classe 'flex' aqui é o que coloca a Sidebar ao lado do resto
-    <div className="flex min-h-screen"> 
-      {/* Este container agrupa o Header e o Conteúdo da página */}
-      <div className="flex-1 flex flex-col">
-        <Header/>
-        <Sidebar/>
-        <main>
+    <div className="h-screen overflow-hidden bg-[var(--background)]">
+      
+      {/* SIDEBAR */}
+      <aside className="fixed left-0 top-0 h-screen w-64 z-50">
+        <Sidebar />
+      </aside>
+
+      {/* HEADER */}
+      <header className="fixed top-0 left-64 right-0 h-16 z-50">
+        <Header />
+      </header>
+
+      {/* CONTEÚDO COM OFFSET CERTO */}
+      <main className="ml-64 h-full pt-16 overflow-y-auto">
+        <div className="p-6">
           {children}
-        </main>
-      </div>
+        </div>
+      </main>
 
     </div>
   );
