@@ -60,6 +60,29 @@
   --ausente: #f5b700;
   --ocupado: #e5484d;
   --offline: #2e2e2e;
+
+  /* PRIORIDADE */
+  --priority-high-bg: #fee2e2;
+  --priority-high-text: #b91c1c;
+
+  --priority-medium-bg: #fef9c3;
+  --priority-medium-text: #a16207;
+
+  --priority-low-bg: #dcfce7;
+  --priority-low-text: #15803d;
+
+  /* STATUS */
+  --status-open-bg: #e0f2fe;
+  --status-open-text: #0369a1;
+
+  --status-progress-bg: #d1fae5;
+  --status-progress-text: #047857;
+
+  --status-waiting-bg: #ffedd5;
+  --status-waiting-text: #c2410c;
+
+  --status-closed-bg: #e4e4e7;
+  --status-closed-text: #3f3f46;
  
   --success: #57d67a;
   --warning: #f5b700;
@@ -138,6 +161,29 @@
   --success: #57d67a;
   --warning: #f5b700;
   --danger: #e5484d;
+
+  /* PRIORIDADE */
+  --priority-high-bg: #451a1a;
+  --priority-high-text: #fca5a5;
+
+  --priority-medium-bg: #422006;
+  --priority-medium-text: #fde047;
+
+  --priority-low-bg: #052e16;
+  --priority-low-text: #86efac;
+
+  /* STATUS */
+  --status-open-bg: #082f49;
+  --status-open-text: #7dd3fc;
+
+  --status-progress-bg: #022c22;
+  --status-progress-text: #6ee7b7;
+
+  --status-waiting-bg: #431407;
+  --status-waiting-text: #fdba74;
+
+  --status-closed-bg: #27272a;
+  --status-closed-text: #d4d4d8;
 
   --shadow:
     0 4px 20px rgba(0, 0, 0, 0.3);
