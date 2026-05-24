@@ -77,52 +77,75 @@
 }
  
 .dark {
-  /* DARK MODE */
-  --background: #001a08;
-  --foreground: #f5f7f5;
- 
-  --card: #0a2414;
-  --card-foreground: #f5f7f5;
- 
-  --popover: #12301d;
-  --popover-foreground: #f5f7f5;
- 
-  --primary: #2fae5a;
-  --primary-foreground: #ffffff;
- 
-  --secondary: #12301d;
-  --secondary-foreground: #f5f7f5;
- 
-  --muted: #12301d;
-  --muted-foreground: #c7d0c8;
- 
-  --accent: #57d67a;
-  --accent-foreground: #001a08;
- 
-  --border: rgba(255, 255, 255, 0.08);
-  --input: rgba(255, 255, 255, 0.08);
-  --ring: #57d67a;
- 
-  --sidebar: #0a2414;
-  --sidebar-foreground: #f5f7f5;
-  --sidebar-border: rgba(255, 255, 255, 0.06);
+  --background: #0d1210;
+  --foreground: #e8ede9;
 
-  --hoverbg: #262626;
-  --hovertxt: #f5f7f5;
- 
+  --card: #141a15;
+  --card-border: #243027;
+  --card-foreground: #e8ede9;
+
+  --button-bg: #2fae5a;
+  --button-hover-bg: #3dc96a;
+  --button-foreground: #ffffff;
+  --secondary-button-bg: #1a3320;
+  --secondary-button-hover-bg: #1f3d26;
+  --secondary-button-foreground: #e8ede9;
+
+  --popover: #141a15;
+  --popover-foreground: #e8ede9;
+
+  --primary: #2fae5a;
+  --primary-hover: #3dc96a;
+  --primary-foreground: #ffffff;
+
+  --secondary: #1a2a1c;
+  --secondary-foreground: #e8ede9;
+
+  --muted: #1a2a1c;
+  --muted-foreground: #8a9e8d;
+
+  --accent: #2fae5a;
+  --accent-foreground: #ffffff;
+
+  --border: #243027;
+  --input: #243027;
+  --ring: #2fae5a;
+
+  --searchbar-bg:          #141a15;
+  --searchbar-border:      #243027;
+  --searchbar-text:        #e8ede9;
+  --searchbar-placeholder: #5f6b62;
+  --searchbar-focus-ring:  #1a3320;
+
+  --radius: 16px;
+
+  --sidebar: #0f1510;
+  --sidebar-foreground: #e8ede9;
+  --sidebar-border: #1e2b20;
+
+  --hoverbg: #1a2a1c;
+  --hovertxt: #e8ede9;
+
+  --notification-bg: #2fae5a22;
+  --notification-text: #e8ede9;
+  --notification-outline: #2fae5a;
+
+  --online: #57d67a;
+  --ausente: #f5b700;
+  --ocupado: #e5484d;
+  --offline: #5f6b62;
+
   --success: #57d67a;
   --warning: #f5b700;
-  --danger: #ff5d5d;
- 
+  --danger: #e5484d;
+
   --shadow:
-    0 10px 40px rgba(0, 0, 0, 0.35);
- 
+    0 4px 20px rgba(0, 0, 0, 0.3);
+
   --gradient-primary:
     linear-gradient(
       135deg,
-      #001a08 0%,
-      #002b0d 45%,
-      #014016 100%
+      #0f6b2e 0%,
+      #2fae5a 100%
     );
 }
- 

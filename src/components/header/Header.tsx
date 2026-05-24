@@ -1,6 +1,7 @@
 import { SearchBar } from "@/components/header/ui/searchBar";
 import { Profile } from "@/components/header/ui/profile";
 import { Notifications } from "@/components/header/ui/notifications";
+import { Toggle } from "@/components/header/ui/toggle";
 
 import { Playfair_Display, Montserrat } from "next/font/google";
 import Image from "next/image";
@@ -29,7 +30,8 @@ export function Header() {
       </div>
 
       <div className="flex items-center gap-5">
-        <div>
+        <div className="flex items-center gap-6">
+          <Toggle />
           <SearchBar />
         </div>
 
