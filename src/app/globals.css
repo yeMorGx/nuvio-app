@@ -149,3 +149,28 @@
       #2fae5a 100%
     );
 }
+
+::selection {
+  background-color: #1a7a4a; /* troque pela cor que quiser */
+  color: #ffffff;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset;
+  -webkit-text-fill-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #22c55e;
+  border-radius: 999px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
