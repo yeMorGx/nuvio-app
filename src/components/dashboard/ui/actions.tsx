@@ -17,7 +17,7 @@ export default function Actions() {
       <AnimateIcon animateOnHover>
         <button className="cursor-pointer bg-(--secondary-button-bg) text-(--secondary-button-foreground) w-full py-4 rounded-[15px] hover:bg-(--secondary-button-hover-bg) transition-all flex items-center justify-center gap-2">
           <Layers />
-          base de conhecimento
+          Base de Conhecimento
         </button>
       </AnimateIcon>
     </div>
