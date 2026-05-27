@@ -55,15 +55,15 @@ const inputClasses =
   "w-full px-3.5 py-2.5 rounded-lg border border-(--border) bg-(--background) text-(--foreground) text-sm outline-none focus:border-(--ring) transition-colors";
 
 const TABS = [
-  { id: "geral", icon: "⚙️", label: "Geral" },
-  { id: "perfil", icon: "👤", label: "Perfil" },
-  { id: "notificacoes", icon: "🔔", label: "Notificações" },
-  { id: "tickets", icon: "🎫", label: "Tickets" },
-  { id: "sla", icon: "⏱️", label: "SLA" },
-  { id: "categorias", icon: "📁", label: "Categorias" },
-  { id: "integracoes", icon: "🔗", label: "Integrações" },
-  { id: "seguranca", icon: "🛡️", label: "Segurança" },
-  { id: "logs", icon: "📄", label: "Logs do sistema" },
+  { id: "geral", icon: "", label: "Geral" },
+  { id: "perfil", icon: "", label: "Perfil" },
+  { id: "notificacoes", icon: "", label: "Notificações" },
+  { id: "tickets", icon: "", label: "Tickets" },
+  { id: "sla", icon: "", label: "SLA" },
+  { id: "categorias", icon: "", label: "Categorias" },
+  { id: "integracoes", icon: "", label: "Integrações" },
+  { id: "seguranca", icon: "", label: "Segurança" },
+  { id: "logs", icon: "", label: "Logs do sistema" },
 ];
 
 export default function SettingsPage() {
