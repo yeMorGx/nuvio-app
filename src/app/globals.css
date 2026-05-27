@@ -10,7 +10,7 @@
   --card-foreground: #1a1f1b;
 
   --button-bg: #0f6b2e;
-  --button-hover-bg: #0f5024;
+  --button-hover-bg: oklch(38.037% 0.09647 149.431);
   --button-foreground: #ffffff;
   --secondary-button-bg: #bee7c5;
   --secondary-button-hover-bg: #cff1d8;
